@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
+  title: Capturing Input Directly
+  sections:
+  - heading: Capturing Input Directly
+    text: You can obtain a reference to the game controller, mouse, keyboard, etc.
+      directly and query its state each Update cycle.
+    linkText: Unity Documentation
+    url: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.14/manual/QuickStartGuide.html
+  - heading: Rigidbodies
+    text: Using the Physics engine requires objects to have a Collider if the object
+      can be collided with. If the object position and orientation is to be controlled
+      by the engine as well, then it also requires a RigidBody. See the documentation
+      for more information
+    linkText: Unity Documentation
+    url: https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Rigidbody.html
+  - heading: Input System Controls
+    text: You can get very specific information about different input devices and
+      events that occurred. Read the documentation below for more information.
+    linkText: Unity Documentation
+    url: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.14/api/UnityEngine.InputSystem.Controls.ButtonControl.html#UnityEngine_InputSystem_Controls_ButtonControl_wasPressedThisFrame
+  loadedLayout: 1

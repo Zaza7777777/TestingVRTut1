@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
+  title: Triggers and Object Creation
+  sections:
+  - heading: Triggers
+    text: Triggers are objects with a Collider. Instead of a regular Collider though,
+      the isTrigger flag is selected. This means that the object is no longer solid,
+      objects can moves through it. When this happens the OnTriggerXXX methods are
+      called with the colliding object passed in as a parameter.
+    linkText: Unity Documentation
+    url: https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Collider-isTrigger.html
+  - heading: Object Creation
+    text: In Unity, you create a GameObject using the Instantiate method. If you
+      pass an instance of a configured GameObject, or prefab, then a copy of that
+      object is made. This object can then be placed and oriented in the world.
+    linkText: Unity Documentation
+    url: https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Object.Instantiate.html
+  - heading: Tweening
+    text: Simple animation (movement, rotation, scaling) can be programmed manually
+      in the Update method. However, there are some existing packages, such as LeanTween,
+      that allow you to set up simple animations and let them run automatically.
+      You can control how the animation is "tweened", attach lambdas to specific
+      events, etc.
+    linkText: Asset Store
+    url: https://assetstore.unity.com/packages/tools/animation/leantween-3595
+  loadedLayout: 1

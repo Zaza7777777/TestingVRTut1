@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
+  title: Console Logging
+  sections:
+  - heading: Debug Log
+    text: You can log information using Debug.Log("Logged message."); and this informaiton
+      will appear in the Console window. However, if you are developing and have
+      deployed to a mobile device, you will not have easy access to the log.
+    linkText: 
+    url: 
+  - heading: Command Terminal
+    text: There is a package (installed and available in the CommandTerminal folder),
+      that creates a command console that can be opened and closed using the tilda.
+      It can also have buttons to open and close (which is useful for mobile devices).
+      Similar to Debug.Log, you can send mssages to Terminal.Log and these are displayed
+      on the console. Additionally you can also add commands to perform actions when
+      entered in the command terminal.
+    linkText: github Repository
+    url: https://github.com/stillwwater/command_terminal
+  loadedLayout: 1
