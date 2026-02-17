@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     public Terminal terminal;
+    public string Text = "blleaea";
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
